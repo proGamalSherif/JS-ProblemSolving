@@ -28,4 +28,5 @@ var numberGame = function(nums) {
 };
 
 
+// console.log(numberGame([17,2,4,11,14,18]).join(","));
 console.log(numberGame([17,2,4,11,14,18]).join(","));
