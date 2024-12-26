@@ -1,4 +1,6 @@
-//Problem [1] : Minimum Number Game
+// =================================
+// Problem [1] : Minimum Number Game
+// =================================
 var numberGame = function(nums) {
     let arr=[];
     for(let i = 0 ; i < nums.length;i++){
@@ -26,7 +28,16 @@ var numberGame = function(nums) {
     }
     return result;
 };
-
-
-// console.log(numberGame([17,2,4,11,14,18]).join(","));
 console.log(numberGame([17,2,4,11,14,18]).join(","));
+// =================================
+// Problem [2] : Counter
+// =================================
+var createCounter = function(n) {
+    
+    return function() {
+
+        return n++;
+        
+    };
+};
+
